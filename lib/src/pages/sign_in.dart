@@ -6,10 +6,8 @@ class SignIn extends StatelessWidget {
 
   void _signUp() async {
     try {
-      UserCredential userCredential = await FirebaseAuth.instance
-          .createUserWithEmailAndPassword(
-              email: "barry.allen@example.com",
-              password: "SuperSecretPassword!");
+      await FirebaseAuth.instance.createUserWithEmailAndPassword(
+          email: "barry.allen@example.com", password: "SuperSecretPassword!");
     } on FirebaseAuthException catch (e) {
       if (e.code == 'weak-password') {
         print('The password provided is too weak.');
@@ -23,10 +21,8 @@ class SignIn extends StatelessWidget {
 
   void _login() async {
     try {
-      UserCredential userCredential = await FirebaseAuth.instance
-          .signInWithEmailAndPassword(
-              email: "barry.allen@example.com",
-              password: "SuperSecretPassword!");
+      await FirebaseAuth.instance.signInWithEmailAndPassword(
+          email: "barry.allen@example.com", password: "SuperSecretPassword!");
     } on FirebaseAuthException catch (e) {
       if (e.code == 'user-not-found') {
         print('No user found for that email.');
