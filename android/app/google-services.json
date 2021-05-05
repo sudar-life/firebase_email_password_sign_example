@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "172348940575",
+    "project_id": "flutter-custom-email-login",
+    "storage_bucket": "flutter-custom-email-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172348940575:android:97ed625d98281ab96a102a",
+        "android_client_info": {
+          "package_name": "com.example.flutter_custom_email_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172348940575-38ke4htkcgev2ja2cmkpjnstf254sv1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFBu5ZPHGn0Nc_AKEYrIXNCP1E63enQkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172348940575-38ke4htkcgev2ja2cmkpjnstf254sv1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
